@@ -31,9 +31,11 @@ class Solution:
 
     # use XOR to solve this problem
 
+    # XOR will returns true when only ODD numbers of conditions are TRUE.
+
     #         input = 2,2,1
 
-    #         ans | nums | XOR
+    #         ans | nums | ans XOR nums
     #         0   | 2    | 0^2=2
     #         2.  | 2.   | 2^2=0
     #         0.  | 1.   | 0^1=1 ans=0
@@ -45,3 +47,17 @@ class Solution:
             ans ^= i
 
         return ans
+
+
+
+# You must first know binary (base-2) system. So lets have example number 6 and number 3.
+#
+# These numbers converts to 0110 and 0011 in base-2 respectively.
+#
+# When we perform XOR on the numbers, we will perform the operations on each individual bits.
+#
+# Let the bits in the order of b3, b2, b1, b0. In b3 place, 0 XOR 0 will gives you 0 In b2 place,
+#
+# 1 XOR 0 will give you 1 In b1 place, 1 XOR 1 will give you 0 In b0 place, 0 XOR 1 will give you 1.
+#
+# Hence, the result is 0101 in base-2, which is 5 in base-10

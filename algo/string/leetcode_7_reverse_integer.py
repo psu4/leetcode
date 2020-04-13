@@ -21,10 +21,7 @@
 # good video: https://www.youtube.com/watch?v=CRgXG1vK-wg
 
 class Solution:
-    def reverse(self, x:
-        int
-
-    ) -> int:
+    def reverse(self, x: int) -> int:
 
     reversed = int(0)
 

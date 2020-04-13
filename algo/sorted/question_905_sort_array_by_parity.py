@@ -1,6 +1,8 @@
 # 905. Sort Array By Parity
+# easy
+# Given an array A of non-negative integers, return an array consisting of all the even elements of A,
 #
-# Given an array A of non-negative integers, return an array consisting of all the even elements of A, followed by all the odd elements of A.
+# followed by all the odd elements of A.
 #
 # You may return any answer array that satisfies this condition.
 #
@@ -23,10 +25,8 @@
 # quick sort: https://www.youtube.com/watch?v=PgBzjlCcFvc
 
 class Solution:
-    def sortArrayByParity(self, A:
-        List[int]
 
-    ) -> List[int]:
+    def sortArrayByParity(self, A:List[int]) -> List[int]:
 
     # we need 2 pointers to track both even and odd numbers
 

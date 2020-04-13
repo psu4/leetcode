@@ -41,8 +41,7 @@ class Solution:
         # defaultdict(<class 'int'>, {})
 
         for i in nums1:
-            lookup[
-                i] += 1  # add each element in nums1 into the lookup table, and count each element shows up how many times
+            lookup[i] += 1  # add each element in nums1 into the lookup table, and count each element shows up how many times
 
         print(lookup)
 

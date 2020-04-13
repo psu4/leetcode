@@ -52,6 +52,7 @@ class Solution:
     while i <= n:
 
         if fast is None:  # if n > len(linklist), return the slow.next (the last element in the link list)
+
             return slow.next
 
         fast = fast.next

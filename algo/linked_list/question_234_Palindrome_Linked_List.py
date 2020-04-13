@@ -1,7 +1,8 @@
 # 234. Palindrome Linked List
 
-# Given a singly linked list, determine if it is a palindrome.
+# easy (i think it is medium for the optimal solution)
 
+# Given a singly linked list, determine if it is a palindrome.
 
 # good link of the solution: https://www.youtube.com/watch?v=wk4QsvwQwdQ
 

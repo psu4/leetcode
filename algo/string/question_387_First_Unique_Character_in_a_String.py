@@ -10,6 +10,7 @@
 # return 2.
 
 class Solution:
+
     def firstUniqChar(self, s: str) -> int:
 
     # good video explanation

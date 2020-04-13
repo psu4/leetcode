@@ -44,7 +44,7 @@ class Solution:
 
             else:
 
-                digits[i ] +=1
+                digits[i] +=1
 
                 return digits
 
@@ -52,7 +52,7 @@ class Solution:
                 # now the digit is 000 for the 999 input, so we need to set the first digit =1 , and append
             # 1 more 0
 
-        digits[0 ] =1
+        digits[0] =1
 
         digits.append(0)
 

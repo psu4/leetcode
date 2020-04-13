@@ -41,8 +41,10 @@ class Solution:
 
         for string in strs[1:]:  # strs[1:]= all the elements in the list except the prefix
 
-            if i >= len(string) or string[i] != prefix[
-                i]:  # if the prefix is longer than the compared word, or the ith element in the prefix is not equal to the ith element in the compared word
+            if i >= len(string) or string[i] != prefix[i]:
+
+                # if the prefix is longer than the compared word,
+                # or the ith element in the prefix is not equal to the ith element in the compared word
 
                 return prefix[:i]
 

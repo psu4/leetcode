@@ -37,6 +37,9 @@ class Solution:
 
     while a < b:
 
+        # isalphanumeric. if there is a space
+        # return false
+
         if s[a].isalnum() is False:
             a = a + 1
 
