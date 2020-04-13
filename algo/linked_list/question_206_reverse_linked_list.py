@@ -1,5 +1,10 @@
 # 206. Reverse Linked List
 
+# easy and high frequency
+
+# Input: 1->2->3->4->5->NULL
+# Output: 5->4->3->2->1->NULL
+
 # Reverse a singly linked list.
 
 # the best explain video: https://www.youtube.com/watch?v=XDO6I8jxHtA
